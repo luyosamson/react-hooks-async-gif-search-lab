@@ -27,10 +27,12 @@ function GifListContainer(){
         
     },[mySearch]
     )
-const searchGif=(searchInput)=>{
-setMysearch(searchInput)
+    function searchGif(searchInput){
+    setMysearch(searchInput)
 
 }
+
+
     return(
         <div>
                <GifSearch onSearch={searchGif} />
